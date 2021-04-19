@@ -1,7 +1,2 @@
 # Equação do 2º Grau
-## Entradas:
-
-Coeficientes: a, b e c
-
-## Saída:
-x1 e x2
+Resolução da equação do 2º grau o fórmula de Bhaskara a partir da entrada dos coeficientes a, b e c.
