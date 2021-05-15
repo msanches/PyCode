@@ -1,14 +1,9 @@
 import os
 while True:
-    nome = input("Digite o nome do aluno: ")
-    if nome == '':
+    diretorio = input("Digite o nome do diretório: ")
+    if diretorio == '':
         break
     try:
-        os.makedirs(nome)
+        os.makedirs(diretorio)
     except OSError:
         print("Não foi possível criar o diretório!")
-
-#dir = 'temp2'       
-#os.makedirs(dir)
-# ou 
-#os.mkdir(dir)
